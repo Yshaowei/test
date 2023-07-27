@@ -1,0 +1,12 @@
+#! /bin/bash
+nub=([2]=b [1]=a [3]=c)
+echo "${nub[*]}"
+read -p "输入第一个数字"   vale1
+read -p "输入第二个数字"   vale2
+printf "\n"
+echo "输入的信息是${vale1} ${vale2}"
+echo "a+b= `expr $vale1 + $vale2`"
+echo "a+b= `expr ${vale1} + ${vale2}`"
+
+exit 3
+
