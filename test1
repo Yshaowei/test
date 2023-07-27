@@ -7,6 +7,6 @@ printf "\n"
 echo "输入的信息是${vale1} ${vale2}"
 echo "a+b= `expr $vale1 + $vale2`"
 echo "a+b= `expr ${vale1} + ${vale2}`"
-
+echo "第一个更新"
 exit 3
 
